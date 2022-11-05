@@ -1,0 +1,48 @@
+.colabs {
+    background: rgba(196, 25, 25, 0.03);
+    width: 87%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4em 1em 2em 1em;
+    margin-bottom: 5%;
+}
+
+.colabs__titulo {
+    font-weight: 600;
+    color: var(--vermelho);
+    font-size: 14px;
+}
+
+.colabs__destaque {
+    font-size: 36px;
+    display: block;
+}
+
+.colaborador {
+    max-width: 800px;
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.colaborador__nome {
+    color: var(--preto);
+    line-height: 24px;
+    display: block;
+}
+
+.colaborador__funcao {
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+}
+
+@media screen and (max-width:520px) {
+.colabs__destaque {
+    font-size: 28px;
+}
+}

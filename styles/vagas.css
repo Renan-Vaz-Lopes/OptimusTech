@@ -1,0 +1,42 @@
+.vagas {
+    margin-bottom: 7%;
+}
+
+.vagas__design {
+    margin-left: 28%;
+    margin: 4em 28%;
+}
+
+.vaga {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    margin-top: 3.3%;
+    padding: 1em 1.5em 1.5em 1.5em;
+}
+
+.vaga__titulo{
+    font-size: 20px;
+}
+
+.vaga__cargo {
+    margin-top: 1%;
+    font-size: 18px;
+    margin-bottom: 3%;
+    display: block;
+    line-height: 28px;
+}
+
+.vaga__detalhes {
+    color:var(--cinza);
+    margin-right: 1em;
+    display: inline;
+}
+
+
+@media screen and (max-width:768px) {
+    .vagas__design {
+        margin: auto;
+    }
+}
+
+

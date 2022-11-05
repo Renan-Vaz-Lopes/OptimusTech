@@ -1,0 +1,125 @@
+.nav-bar__titulo {
+    color: var(--cor-de-titulo);
+    margin-left: 3%;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar__logo_lista {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar__botoes {
+    display: flex;
+    align-items: center;
+}
+
+.lista-menu1{
+    display: none;
+}
+
+.lista-menu2{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.lista-menu2__link {
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 33px;
+}
+
+.nav-bar__link {
+    text-decoration: none;
+    color: var(--cinza);
+    padding: 10px 18px;
+    background: transparent;
+    border: none;
+}
+
+.link__cadastrar {
+    border-radius: 8px;
+    background-color: var(--vermelho);
+    padding: 12px;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    border: 1px solid var(--vermelho);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    text-decoration: none;
+}
+
+.nav-bar__botao {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .lista-menu2{
+        display: none;
+    }
+
+    .nav-bar__menu-hamburguer {
+        width: 24px;
+        height: 24px;
+        background-image: url(../img/Menu.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        padding-right: 24px;
+        margin: auto 0;
+        margin-right: 8px
+    }
+
+    .nav-bar__lista {
+        display: none;
+    }
+
+    .nav-bar__botao {
+        display: none;
+    }
+
+    .lista-menu1{
+        display: none;
+        position: absolute;
+        top: 100%;
+    }
+
+    .lista-menu1__item {
+        padding: .5em;
+        color: var(--vermelho);
+    }
+
+    .lista-menu1__link {
+        text-decoration: none;
+        color: var(--cinza);
+        margin-right: 33px;
+    }
+
+    .nav-bar__botao:checked~.lista-menu1{
+        display: block;
+        padding: 0;
+        margin: 0 0 1em 0;
+        list-style: none
+    }
+
+    .nav-bar {
+        position: relative;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .lista-menu2{
+        display: none;
+    }
+
+    .nav-bar {
+        justify-content: center;
+    }
+
+}

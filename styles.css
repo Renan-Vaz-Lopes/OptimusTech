@@ -1,0 +1,31 @@
+@import url("styles/nav-bar.css");
+@import url("styles/cabecalho.css");
+@import url("styles/numeros.css");
+@import url("styles/img.css");
+@import url("styles/vagas.css");
+@import url("styles/colabs.css");
+@import url("styles/email.css");
+
+:root {
+    --fonte-principal: 'Inter';
+    --cor-de-titulo: #3A404E;
+    --cinza: #667085;
+    --vermelho: #8E2424;
+    --preto: #101828;
+    --branco: #FFFFFF;
+    --borda-input-new: #D0D5DD;
+    --copyright: #98A2B3;
+    --fundo_email:#F9FAFB;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.all {
+    margin: 0px 3em;
+}
+

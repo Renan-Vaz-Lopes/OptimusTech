@@ -1,0 +1,30 @@
+.sobre_nos {
+    text-align: center;
+    padding: 8em 1em;
+}
+
+.sobre_nos__titulo {
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.sobre_nos__destaque {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.sobre_nos__texto {
+    max-width: 800px;
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width:425px) {
+    .sobre_nos {
+        padding: 11em 1em;
+    }
+}

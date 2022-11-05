@@ -1,0 +1,26 @@
+.img1 {
+    width: 100%;
+}
+
+.img__conteudo {
+    padding: 3em 1em;
+    margin-top: 10em;
+}
+
+.img__conteudo-titulo {
+    padding: 5px 10px;
+    font-weight: 600;
+    color: var(--vermelho);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    display: table;
+    margin: 0 auto;
+}
+
+.img__conteudo-destaque {
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+}
